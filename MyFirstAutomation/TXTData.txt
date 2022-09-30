@@ -1,0 +1,6 @@
+name,empid,status
+ramesh,1,active
+suresh,2,inactive
+ravi,3,inactive
+shani,4,active
+sham,5,active

@@ -1,0 +1,208 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Image" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="568,1725" sap2010:WorkflowViewState.IdRef="Image_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Activities.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Terminal</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Image" sap:VirtualizedContainerService.HintSize="536,1660" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Image" sap:VirtualizedContainerService.HintSize="494,1568" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'SignInPeg Chrome_wi'" sap:VirtualizedContainerService.HintSize="452,1476" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="d5228923b9d3b7f9731a7ea2119e2e6a" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Sign In | Pega Studio Training Web Application - Google Chrome' /&gt;">
+        <ui:WindowScope.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="418,1330" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'Chrome_RenderWidgetHost...'" sap:VirtualizedContainerService.HintSize="376,154" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
+                <ui:ClickImage.CursorPosition>
+                  <ui:CursorPosition OffsetX="29" OffsetY="0" Position="Center" />
+                </ui:ClickImage.CursorPosition>
+                <ui:ClickImage.Image>
+                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJsAAAAaCAYAAACgjS7xAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHfSURBVHhe7ZaBjcMgDEVv6SzBFEzCEpkiU3BgMNhOmrs0kdVK/0mVCiZA6wfOTwbACcgG3IBswA3IBtyAbMANyAbcgGzADcgG3IBswI0T2dYclyXHtTcHr/ofZks5lHVC2noHU9cPedcNPp6Pl21ZYllRAtm+lQ+XLeQQinBqMcj2rTwg25ZTFYJuIStGGR1fxNaYlxBzpGcP5OmypbXdcPPRvWxqDRnjOVJZq8drWd5SUO1J+20c2/92cIfbslHixqAmnoqFVHqpRbGR3CrbWUJZlDJcz2NkI2k5VptFlLkBEnW0+5q8hyYdl2mzP7E+eIZnZDtMihaPkGJQ4u37mEAlW4pgZFO0cVo2Mda25R4opvdTxdU3H7jDiWzmpA/2EjbhuPxwMtu42c+fntBLshVofG0b2Wgcz23e8a7IRt95HvFRpwXc4bpsNmEGKmN0ex3cbJKrshVaiSzveaJflc3Cvoz+UzaKnewH3OZEtvr/70vklEm0RbLpmd6m73bsW2WU4dvSyMZz0jNiP1dk64djHq62Fsroc5zKVtElUiR20N+TxhgtEMlwFHtLNt6PFajPX/a2SsEvyVYxpV8cInCfP2UD4CkgG3ADsgE3IBtwA7IBNyAbcAOyASdy/gWcC4LhUfpNtQAAAABJRU5ErkJggg==" />
+                </ui:ClickImage.Image>
+                <ui:ClickImage.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ab24bf6b-63bd-4e76-af7f-015ede558fc6" Selector="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:ClickImage.Target>
+              </ui:ClickImage>
+              <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'Chrome_RenderWidgetHost...'" sap:VirtualizedContainerService.HintSize="376,154" sap2010:WorkflowViewState.IdRef="ClickImage_2" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
+                <ui:ClickImage.CursorPosition>
+                  <ui:CursorPosition OffsetX="0" OffsetY="0" Position="Center" />
+                </ui:ClickImage.CursorPosition>
+                <ui:ClickImage.Image>
+                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGQAAAASCAYAAACtmXuIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGpSURBVFhH7ZgBjsQgCEV76V7CU3gSL9FT9BQsoChgd3Y62WxJ1p80GUUFeYrJbLAUSgtIMC0gwbTlo/3qOiDvO8z9v6yzQEI/qZytQ0T+E0zd/0SPA9n3jB61FhCnvwSSICWEYpwtIE4eyAmFksan2ScPR+dvbEeGPWXIPPciwQ1IOepNGVNnIMaHtskaBX01O5XAsyTTHqp7E9u89+f1IxDeXB9U4RhbKtjLLbb1BBCQV5uWZOJwu44DwmDFRk1M5giAYfZ28ykxVDBSEl18yn8kvQfkMnALh6WTx8nx74OSSYhO1nxDhuo4C0SN9W0dA9tsPATX3qDntc0BWSCkCkWuumy4jhv98rVN3wKC4vHUdkB4nKzt3pw7QPi3rKM+c6Ke1wzEb8qJSwbfgosbonUXCKqWI3x3VL8pUai5ZL0JhG0v4gmizZejkXDVVgnh29Latva7uR8AwUnt1jkgsibPUfHcAdIO0DiA1Ve4kmXLkdp8V6vbfYxNMifsyvYREOp2b5ZAoA9jO/QhuAWE5MqsOmhRtP46CaYFJJgWkGBaQIJpAQklgC8eFdjePwwlxgAAAABJRU5ErkJggg==" />
+                </ui:ClickImage.Image>
+                <ui:ClickImage.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="eeb77fd4-0c50-4c3f-b242-8f15658d84ca" Selector="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:ClickImage.Target>
+              </ui:ClickImage>
+              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Type Into 'Chrome_RenderWidgetHost...'" EmptyField="False" sap:VirtualizedContainerService.HintSize="376,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="False" SimulateType="False" Text="1234">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d281469e-d77a-4443-85ce-e8933e87d725" InformativeScreenshot="d7b4013621353874929a252a76f64c9a" Selector="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'Chrome_RenderWidgetHost...'" sap:VirtualizedContainerService.HintSize="376,154" sap2010:WorkflowViewState.IdRef="ClickImage_3" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
+                <ui:ClickImage.CursorPosition>
+                  <ui:CursorPosition OffsetX="0" OffsetY="0" Position="Center" />
+                </ui:ClickImage.CursorPosition>
+                <ui:ClickImage.Image>
+                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAWCAYAAABJ2StvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGNSURBVGhD7ZaLkQMhCIav6W3CKqzEJqxiq+AAXQXcSSZzD84c/8xOlqiIH0jyASEXBXgnBXgnBXgnBXgnBXgnBXgnPQBfIR8HHPZJBc4+Y1+dUNIBqfid5Cn4XLvJagEf+ssNtR14VM1Y+RlHd9Y7gD8LpKsN0SMX8NxrLIE8Z81izWhftKeYx76tPfdWPuy+KUOm23mtl3H2sY1bTbOnKUEZiAyjA5bvbE4I8v0sCVLCR9jX3vyuEiZA9oTP2E2F9/FhO+h7f1z5QBI8zteZa1rATEm4NaOvislkWyZ5bRUqEezf3kpRBDfrf1uvtxoj3TKwOtUBTfKksw7/esbQaCe09u6TtMb2ELy1UfJmeehr4G0lLZUlxGP3/hjaAEPVKCudIKFdEN7Mzj+veAOzVX8/4HJY8tdsBYlEoITN1Wh6O9kyFu2jxTpALhXeQI/E9bj3BY+SrSZXs4YBzHF5UNWi7C3p67Qf3SpIyocM9HZ+i63Nx381lNy/CT70kwrwTgrwTgrwTgrwLgL4BKvOGR7G+grvAAAAAElFTkSuQmCC" />
+                </ui:ClickImage.Image>
+                <ui:ClickImage.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ae14b2b-a7fa-45d5-b72b-cad3113f8ec2" Selector="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:ClickImage.Target>
+              </ui:ClickImage>
+              <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'Chrome_RenderWidgetHost...'" sap:VirtualizedContainerService.HintSize="376,154" sap2010:WorkflowViewState.IdRef="ClickImage_4" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
+                <ui:ClickImage.CursorPosition>
+                  <ui:CursorPosition OffsetX="0" OffsetY="0" Position="Center" />
+                </ui:ClickImage.CursorPosition>
+                <ui:ClickImage.Image>
+                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFkAAAAUCAYAAADmzZEdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGCSURBVFhH7ZbRrcMgDEWzdJZgCiZhCabIFC4YB65NFOl9hAQ9rhQVF3DwsXG70dLjWpAHaEEeoAV5gBbkAdr2fSf1uECHTM6rg4LbyYVvRLL5KCNWOdyuv5xQn4acFH2qaE9zY54N8hHIYTvBDbz2nHOEMUUPe2oLiuRxHfu2dnu38mHf6zz5fOvO/XhOmZukXRS7mQjFAOPABSaO2WwB4/gIjpxLD9jnu3mskgPQJLnt7KZyZb7aL+tvP3x8eISMCQF1EJoQZPTJV0yJYxsT2l93BZ3929sGCb/Y/6b6dmGkr32qOhWMgD4fdCagz6dO1ZaQ9159ZhW/6O4WsrWT8Ma8rXvItkK6igHx3E31Vgi5yrCCM5BkhwSqZeIfVbIBV6pagukCy9VXbAUkK0MBm6vM9OJs41m0j1LZFVpXuQVqTZKcew7ISdgufDTXmINt8xiUajO2+mWf9qOve5bygQe9XF/OVtanfxc5kV+BLJ9LD2pBHqAFeYAW5AFakB8X0Q+iH62JOJ/hkAAAAABJRU5ErkJggg==" />
+                </ui:ClickImage.Image>
+                <ui:ClickImage.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="858b1ae5-8ce2-4dd1-a8b2-7e0f6ce1a2c8" Selector="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:ClickImage.Target>
+              </ui:ClickImage>
+              <Sequence DisplayName="Type password" sap:VirtualizedContainerService.HintSize="376,288" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:String" Name="Password" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="GetPassword_1" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAOMcCZUpDWEiGe41wafkRgAAAAAACAAAAAAAQZgAAAAEAACAAAAB9LYzKMAUzwoHbrpPnfNt6Qys6b2dKCWkpw/MyhAH2tQAAAAAOgAAAAAIAACAAAAB+bMmAJhpDJfz4rkMarQaIwptrUKfrBSLo8GCHiUhzkRAAAAB2W2YjSRAEpSxZCLMih1W3QAAAADH6gxi339TrmiIxgQsTyJPxmSQWNan6/k5gGRAcnCbQ1sTheGq4BkfzvOfHCWDVyFBv0tc9ZHkz33uPudyATR4=" Result="[Password]" />
+                <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Type Into 'Chrome_RenderWidgetHost...'" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_2" SendWindowMessages="False" SimulateType="False" Text="[Password]">
+                  <ui:TypeInto.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5706157b-b060-4ca8-a11e-88559aab6879" InformativeScreenshot="6672bae4141e80d7298eaa404430fbb4" Selector="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:TypeInto.Target>
+                </ui:TypeInto>
+              </Sequence>
+            </Sequence>
+          </ActivityAction>
+        </ui:WindowScope.Body>
+      </ui:WindowScope>
+    </Sequence>
+  </Sequence>
+</Activity>
